@@ -1,0 +1,50 @@
+# macOS / system
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.ipynb_checkpoints/
+
+# LaTeX build files
+manuscript/*.aux
+manuscript/*.bbl
+manuscript/*.blg
+manuscript/*.log
+manuscript/*.out
+manuscript/*.toc
+manuscript/*.synctex.gz
+manuscript/*.fls
+manuscript/*.fdb_latexmk
+
+# Model checkpoints / cache
+*.pt
+*.pth
+*.ckpt
+results/checkpoints/
+results/cache/
+
+# Do not upload downloaded TCGA patient-level files
+data/raw/
+data/downloads/
+data/tcga/
+data/tcga_gbm/
+data/tcga_lgg/
+data/gdc/
+data/gdc_downloads/
+*.bam
+*.fastq
+*.fq
+*.vcf
+*.maf
+*.gz
+*.tar
+*.zip
+
+# Do not upload manuscript source/PDF
+manuscript/main.tex
+manuscript/main.pdf
+manuscript/refs.bib

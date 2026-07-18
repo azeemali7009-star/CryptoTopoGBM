@@ -1,0 +1,2 @@
+n_examples,key_bits,mean_absolute_logit_error,max_absolute_logit_error,mean_encrypt_seconds,mean_encrypted_dot_seconds,mean_decrypt_seconds
+8,256,0.00011439064618871259,0.00020975675567447283,0.011171941000043262,0.008619843749983147,0.0004506207500298842

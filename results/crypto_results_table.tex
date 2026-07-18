@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Encrypted final-head inference with dependency-free Paillier additive homomorphic encryption on the bundled benchmark. The encrypted computation evaluates the same linear risk head on quantized encrypted embeddings.}
+\label{tab:crypto_results}
+\small
+\begin{tabular}{lcc}
+\toprule
+Quantity & Value & Unit \
+\midrule
+Encrypted test examples & 8 & patients \
+Key size & 256 & bits \
+Mean absolute logit error & 0.000114 & logit \
+Maximum absolute logit error & 0.000210 & logit \
+Mean embedding encryption time & 0.0112 & s/patient \
+Mean encrypted dot-product time & 0.0086 & s/patient \
+Mean decryption time & 0.000451 & s/patient \
+\bottomrule
+\end{tabular}
+\end{table}

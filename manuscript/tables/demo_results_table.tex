@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Executable GBM-like multi-omics benchmark. Values are mean $\pm$ standard deviation over three random patient splits. The benchmark is included to verify the complete topology-learning and cryptographic pipeline without redistributing TCGA patient-level files; these values are not biological TCGA-GBM results.}
+\label{tab:demo_results}
+\small
+\begin{tabular}{lccccc}
+\toprule
+Model & Accuracy & Balanced acc. & F1 & AUC & C-index \\
+\midrule
+Logistic & 0.542 $\pm$ 0.072 & 0.542 $\pm$ 0.072 & 0.555 $\pm$ 0.051 & 0.565 $\pm$ 0.087 & 0.519 $\pm$ 0.079 \\
+RandomForest & 0.625 $\pm$ 0.036 & 0.625 $\pm$ 0.036 & 0.561 $\pm$ 0.064 & 0.698 $\pm$ 0.076 & 0.602 $\pm$ 0.106 \\
+MLP & 0.576 $\pm$ 0.012 & 0.576 $\pm$ 0.012 & 0.536 $\pm$ 0.058 & 0.672 $\pm$ 0.044 & 0.587 $\pm$ 0.084 \\
+GraphNet & 0.583 $\pm$ 0.072 & 0.583 $\pm$ 0.072 & 0.543 $\pm$ 0.046 & 0.670 $\pm$ 0.095 & 0.596 $\pm$ 0.128 \\
+SimplicialNet & 0.632 $\pm$ 0.012 & 0.632 $\pm$ 0.012 & 0.570 $\pm$ 0.064 & 0.699 $\pm$ 0.056 & 0.610 $\pm$ 0.126 \\
+\bottomrule
+\end{tabular}
+\end{table}
